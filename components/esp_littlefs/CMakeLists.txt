@@ -7,7 +7,7 @@ idf_component_register(
     SRCS ${SOURCES}
     INCLUDE_DIRS include
     PRIV_INCLUDE_DIRS src
-    PRIV_REQUIRES esptool_py spi_flash vfs
+    PRIV_REQUIRES esptool_py spi_flash vfs esp_partition 
 )
 
 set_source_files_properties(

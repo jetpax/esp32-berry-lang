@@ -16,6 +16,6 @@ idf_component_register(
         berry_mapping/src
         berry_ctypes/src
     REQUIRES
-        internals
+        internals esp_psram esp_timer driver
 )
-component_compile_options("-Wno-return-type")
+component_compile_options("-Wno-return-type"  "-Wno-format")

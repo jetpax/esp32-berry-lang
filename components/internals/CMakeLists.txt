@@ -10,5 +10,5 @@ idf_component_register(
         .
         esp32/include
     REQUIRES
-        esp_littlefs
+        esp_littlefs esp_wifi
 )
